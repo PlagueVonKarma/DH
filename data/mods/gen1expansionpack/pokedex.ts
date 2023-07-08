@@ -88,10 +88,38 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 134, atk: 75, def: 70, spa: 75, spd: 75, spe: 60},
 		abilities: {},
 	},
+// This was a Helix Chamber interpretation of an iguana Pokemon that I substantially disagreed with.
+//	skimper: {
+//		num: 1162,
+//		name: "Skimper",
+//		types: ["Water"],
+//		baseStats: {hp: 62, atk: 43, def: 36, spa: 71, spd: 71, spe: 88},
+//		abilities: {},
+//		evos: ["Bawligua"],
+//	},
+//	bawligua: {
+//		num: 1163,
+//		name: "Bawligua",
+//		types: ["Water"],
+//		baseStats: {hp: 72, atk: 53, def: 46, spa: 81, spd: 81, spe: 98},
+//		abilities: {},
+//		prevo: "Skimper",
+//		evoLevel: 30,
+//		evos: ["Cryithan"],
+//	},
+//	cryithan: {
+//		num: 1164,
+//		name: "Cryithan",
+//		types: ["Water", "Dragon"],
+//		baseStats: {hp: 92, atk: 83, def: 76, spa: 101, spd: 101, spe: 118},
+//		abilities: {},
+//		prevo: "Bawligua",
+//		evoLevel: 50,
+// This is the new interpretation of the Iguana Pokemon (Index 95).
 	skimper: {
 		num: 1162,
 		name: "Skimper",
-		types: ["Water"],
+		types: ["Dragon"],
 		baseStats: {hp: 62, atk: 43, def: 36, spa: 71, spd: 71, spe: 88},
 		abilities: {},
 		evos: ["Bawligua"],
@@ -99,7 +127,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	bawligua: {
 		num: 1163,
 		name: "Bawligua",
-		types: ["Water"],
+		types: ["Dragon"],
 		baseStats: {hp: 72, atk: 53, def: 46, spa: 81, spd: 81, spe: 98},
 		abilities: {},
 		prevo: "Skimper",
@@ -109,8 +137,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	cryithan: {
 		num: 1164,
 		name: "Cryithan",
-		types: ["Water", "Dragon"],
-		baseStats: {hp: 92, atk: 83, def: 76, spa: 101, spd: 101, spe: 118},
+		types: ["Dragon"],
+		baseStats: {hp: 102, atk: 93, def: 76, spa: 121, spd: 121, spe: 108},
 		abilities: {},
 		prevo: "Bawligua",
 		evoLevel: 50,
@@ -137,7 +165,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		num: 1167,
 		name: "Gyaoon",
 		types: ["Rock"],
-		baseStats: {hp: 101, atk: 110, def: 100, spa: 95, spd: 95, spe: 30},
+		baseStats: {hp: 101, atk: 124, def: 100, spa: 95, spd: 95, spe: 30},
 		abilities: {},
 		prevo: "Decilla",
 		evoLevel: 50,
@@ -145,15 +173,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	omega: {
 		num: 1168,
 		name: "Omega",
-		types: ["Steel"], //WARNING: Not designed for SW97 Steel-type. Consider field testing in a closed beta. Talk to Shellnuts.
-		baseStats: {hp: 101, atk: 100, def: 120, spa: 95, spd: 95, spe: 25}, 
+		types: ["Steel"],
+		baseStats: {hp: 101, atk: 106, def: 120, spa: 95, spd: 95, spe: 25}, 
 		abilities: {},
 	},
 	trampel: {
 		num: 1169,
 		name: "Trampel",
 		types: ["Normal", "Ground"],
-		baseStats: {hp: 130, atk: 100, def: 90, spa: 64, spd: 64, spe: 56}, //Consider checking the Attack stat to see if we should add more points to factor in Blissey. Needs more testing.
+		baseStats: {hp: 110, atk: 100, def: 90, spa: 64, spd: 64, spe: 56}, //Consider checking the Attack stat to see if we should add more points to factor in Blissey. Needs more testing.
 		abilities: {},
 	},
 	jagg: {
