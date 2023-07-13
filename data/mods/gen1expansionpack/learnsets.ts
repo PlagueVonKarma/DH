@@ -3303,7 +3303,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			magnetbomb: ["1L1"],
 			supersonic: ["1L51"],
 			screech: ["1L55"],
-			metalsound: ["1L55"], // intentional day care exploit
+			// metalsound: ["1L55"], // removed for balancing
 			megakick: ["1M"],
 			bodyslam: ["1M"],
 			takedown: ["1M"],
