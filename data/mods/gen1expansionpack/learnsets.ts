@@ -2627,6 +2627,28 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			substitute: ["1M"],
 		},
 	},
+	tyrogue: {
+		learnset: {
+			tackle: ["1L1"],
+			
+			toxic: ["1M"],
+			rage: ["1M"],
+			mimic: ["1M"],
+			doubleteam: ["1M"],
+			bide: ["1M"],
+			rest: ["1M"],
+			substitute: ["1M"],
+			strength: ["1M"],
+			counter: ["1M"],
+			bodyslam: ["1M"],
+			seismictoss: ["1M"],
+			megakick: ["1M"],
+			doubleedge: ["1M"],
+		},
+		encounters: [
+			{generation: 1, level: 5},
+		],
+	},
 	magmortar: {
 		learnset: {
 			ember: ["1L1"],
