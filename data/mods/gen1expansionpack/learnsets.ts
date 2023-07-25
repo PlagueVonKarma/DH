@@ -3971,7 +3971,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			psybeam: ["1L25"],
 			stomp: ["1L30"],
 			takedown: ["1L41", "1M"],
-			dazlinggleam: ["1L45"],
+			dazzlinggleam: ["1L45"],
 			psychic: ["1L50", "1M"],
 			bodyslam: ["1M"],
 			swift: ["1M"],
@@ -4025,6 +4025,36 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			rest: ["1M"],
 			substitute: ["1M"],
 		},
+	},
+	grimeralola: {
+		learnset: {
+			pound: ["1L1"],
+			poisongas: ["1L1"],
+			harden: ["1L6"],
+			minimize: ["1L12"],
+			disable: ["1L18"],
+			screech: ["1L30"],
+			acidarmor: ["1L42"],
+			
+			bodyslam: ["1M"],
+			megadrain: ["1M"],
+			thunderbolt: ["1M"],
+			thunder: ["1M"],
+			fireblast: ["1M"],
+			explosion: ["1M"],
+			selfdestruct: ["1M"],
+			
+			toxic: ["1M"],
+			rage: ["1M"],
+			mimic: ["1M"],
+			doubleteam: ["1M"],
+			bide: ["1M"],
+			rest: ["1M"],
+			substitute: ["1M"],
+		},
+		encounters: [
+			{generation: 1, level: 5},
+		],
 	},
 	slowpokegalar: {
 		learnset: {

@@ -511,7 +511,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	elekid: {
 		inherit: true,
-		baseStats: {hp: 45, atk: 63, def: 37, spa: 55, spd: 55, spe: 55},
+		baseStats: {hp: 45, atk: 63, def: 37, spa: 55, spd: 55, spe: 95},
 	},
 	electivire: {
 		inherit: true,
