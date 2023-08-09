@@ -1542,7 +1542,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			bodyslam: ["1M"],
 			takedown: ["1M"],
 			doubleedge: ["1M"],
-			hyperbeam: ["1M"],
+//			hyperbeam: ["1M"],
 			thunder: ["1M"],
 			thunderbolt: ["1M"],
 			reflect: ["1M"],
@@ -2987,7 +2987,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			skullbash: ["1M"],
 			cut: ["1M"],
 			fly: ["1M"],
-			hyperbeam: ["1M"],
+//			hyperbeam: ["1M"],
 			
 			toxic: ["1M"],
 			rage: ["1M"],
