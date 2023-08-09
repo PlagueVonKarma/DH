@@ -118,7 +118,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 // This is the new interpretation of the Iguana Pokemon (Index 95).
 	skimper: {
 		num: 1162,
-		name: "Squeamata",
+		name: "Squeamata", // Squeamish Squamata
 		types: ["Dragon"],
 		baseStats: {hp: 62, atk: 43, def: 36, spa: 71, spd: 71, spe: 88},
 		abilities: {},
@@ -126,7 +126,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	bawligua: {
 		num: 1163,
-		name: "Squamate",
+		name: "Ministare", // Ministro + Stare / Glare, "mini" implies small
 		types: ["Dragon"],
 		baseStats: {hp: 72, atk: 53, def: 46, spa: 81, spd: 81, spe: 98},
 		abilities: {},
@@ -136,7 +136,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	cryithan: {
 		num: 1164,
-		name: "Cryithan",
+		name: "Iguanarch", // Iguana + Monarch, "anarchy" could be derived for aggression.
 		types: ["Dragon"],
 		baseStats: {hp: 102, atk: 93, def: 76, spa: 121, spd: 121, spe: 108},
 		abilities: {},
